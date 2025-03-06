@@ -1,13 +1,42 @@
-# Node.js dependencies
+# Node.js dependencies (for both frontend & backend)
 node_modules/
 package-lock.json
+yarn.lock
 
-# Build files
+# Build files (for React frontend & any compiled files in backend)
 build/
 dist/
 
 # Environment variables
 .env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
 
 # System files
 .DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# Coverage files (for testing)
+coverage/
+.nyc_output/
+
+# Next.js specific (if using Next.js in frontend)
+.next/
+
+# React testing & cache
+jest/
+cypress/
+.cache/
